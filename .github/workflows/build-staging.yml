@@ -1,4 +1,4 @@
-name: Build and push the latest build to staginG
+name: Build and push the latest build to staging
 
 on:
   push:
