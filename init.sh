@@ -1,12 +1,9 @@
 #!/bin/bash
 
 echo "Defining variables..."
-export RESOURCE_GROUP_NAME=mslearn-gh-pipelines-$RANDOM
+export RESOURCE_GROUP_NAME=1-3acb7760-playground-sandbox
 export AKS_NAME=contoso-video
 export ACR_NAME=contosocontainerregistry$RANDOM
-
-echo "Searching for resource group..."
-az group create -n $RESOURCE_GROUP_NAME -l eastus
 
 echo "Creating cluster..."
 az aks create \
